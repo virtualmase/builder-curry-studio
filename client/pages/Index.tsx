@@ -1396,10 +1396,11 @@ export default function Index() {
                     suitable for all investors.
                   </p>
                   <p>
-                    <strong>Regulatory Status:</strong> DarkGemini Technologies,
-                    Inc. is a Delaware corporation. Our digital twin simulation
-                    platform operates under applicable financial technology
-                    regulations.
+                    <strong>Regulatory Status:</strong> Dark Gemini Labs, Inc.
+                    is a Delaware corporation with global operations. Our
+                    digital twin simulation platform operates under applicable
+                    financial technology regulations across multiple
+                    jurisdictions.
                   </p>
                   <p>
                     <strong>Data Protection:</strong> We are GDPR, CCPA, and SOC
