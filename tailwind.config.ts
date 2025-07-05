@@ -57,6 +57,20 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        cyber: {
+          blue: "hsl(var(--cyber-blue))",
+          purple: "hsl(var(--cyber-purple))",
+          green: "hsl(var(--cyber-green))",
+        },
+        neural: {
+          grid: "hsl(var(--neural-grid))",
+        },
+        data: {
+          flow: "hsl(var(--data-flow))",
+        },
+        sync: {
+          pulse: "hsl(var(--sync-pulse))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
