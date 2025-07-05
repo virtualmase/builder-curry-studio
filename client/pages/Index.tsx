@@ -234,6 +234,54 @@ export default function Index() {
             </div>
           </div>
         </div>
+
+        {/* Trust Indicators */}
+        <div className="relative border-t border-border/50 py-8">
+          <div className="container">
+            <div className="flex flex-col md:flex-row items-center justify-between gap-8 text-center md:text-left">
+              <div className="flex items-center gap-8">
+                <div className="flex flex-col items-center">
+                  <div className="text-2xl font-bold text-primary">99.7%</div>
+                  <div className="text-xs text-muted-foreground">
+                    Accuracy Rate
+                  </div>
+                </div>
+                <div className="flex flex-col items-center">
+                  <div className="text-2xl font-bold text-cyber-blue">12ms</div>
+                  <div className="text-xs text-muted-foreground">
+                    Avg Latency
+                  </div>
+                </div>
+                <div className="flex flex-col items-center">
+                  <div className="text-2xl font-bold text-success-emerald">
+                    24/7
+                  </div>
+                  <div className="text-xs text-muted-foreground">Uptime</div>
+                </div>
+              </div>
+              <div className="flex items-center gap-6">
+                <Badge
+                  variant="secondary"
+                  className="bg-primary/10 text-primary"
+                >
+                  🏆 Industry Leading
+                </Badge>
+                <Badge
+                  variant="secondary"
+                  className="bg-quantum-glow/10 text-quantum-glow"
+                >
+                  🔐 SOC 2 Certified
+                </Badge>
+                <Badge
+                  variant="secondary"
+                  className="bg-cyber-blue/10 text-cyber-blue"
+                >
+                  🚀 Patent Pending
+                </Badge>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
 
       {/* Competitive Advantages */}
