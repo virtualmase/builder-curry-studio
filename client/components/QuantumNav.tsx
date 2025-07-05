@@ -77,10 +77,10 @@ export default function QuantumNav() {
           </div>
           <div className="flex flex-col">
             <span className="text-xl font-bold bg-gradient-to-r from-primary to-cyber-blue bg-clip-text text-transparent">
-              Dark Gemini Labs
+              DarkGemini
             </span>
             <span className="text-xs text-muted-foreground -mt-1">
-              Research & Innovation
+              Digital Twin Platform
             </span>
           </div>
         </Link>
