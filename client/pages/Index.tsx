@@ -78,55 +78,7 @@ export default function Index() {
 
   return (
     <div className="min-h-screen bg-background text-foreground">
-      {/* Navigation */}
-      <nav className="border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-        <div className="container flex h-16 items-center">
-          <div className="flex items-center space-x-2">
-            <div className="h-8 w-8 rounded-lg bg-primary flex items-center justify-center">
-              <Monitor className="h-5 w-5 text-primary-foreground" />
-            </div>
-            <span className="text-xl font-bold bg-gradient-to-r from-primary to-cyber-blue bg-clip-text text-transparent">
-              DarkGemini
-            </span>
-          </div>
-
-          <div className="ml-auto flex items-center space-x-6">
-            <div className="hidden md:flex items-center space-x-4 text-xs text-muted-foreground">
-              <div className="flex items-center gap-1">
-                <div className="h-1.5 w-1.5 rounded-full bg-success-emerald animate-pulse" />
-                <span>12,847 Active Users</span>
-              </div>
-              <div className="flex items-center gap-1">
-                <div className="h-1.5 w-1.5 rounded-full bg-cyber-blue animate-pulse" />
-                <span>$2.4B Volume Simulated</span>
-              </div>
-            </div>
-            <div className="flex items-center space-x-2">
-              <div
-                className={`h-2 w-2 rounded-full ${isLive ? "bg-primary animate-pulse" : "bg-muted"}`}
-              />
-              <span className="text-sm text-muted-foreground">
-                {isLive ? "Live Sync" : "Disconnected"}
-              </span>
-            </div>
-            <Link to="/dashboard">
-              <Button variant="outline" size="sm">
-                <Activity className="h-4 w-4 mr-2" />
-                Monitor
-              </Button>
-            </Link>
-            <Link to="/dashboard">
-              <Button
-                size="sm"
-                className="bg-gradient-to-r from-primary to-cyber-blue hover:from-primary/90 hover:to-cyber-blue/90"
-              >
-                <Play className="h-4 w-4 mr-2" />
-                Launch Twin
-              </Button>
-            </Link>
-          </div>
-        </div>
-      </nav>
+      <QuantumNav />
 
       {/* Hero Section */}
       <section className="relative overflow-hidden border-b border-border">
