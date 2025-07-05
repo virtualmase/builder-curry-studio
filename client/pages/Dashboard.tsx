@@ -61,11 +61,11 @@ export default function Dashboard() {
       volume: "840M",
     },
     {
-      symbol: "ADA",
-      name: "Cardano",
-      price: 0.4521,
-      change: "-0.23%",
-      volume: "234M",
+      symbol: "TAO",
+      name: "Bittensor",
+      price: 487.23,
+      change: "+8.92%",
+      volume: "156M",
     },
     {
       symbol: "SOL",
@@ -73,6 +73,13 @@ export default function Dashboard() {
       price: 98.45,
       change: "+4.12%",
       volume: "567M",
+    },
+    {
+      symbol: "ADA",
+      name: "Cardano",
+      price: 0.4521,
+      change: "-0.23%",
+      volume: "234M",
     },
   ];
 
