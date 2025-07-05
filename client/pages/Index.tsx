@@ -970,32 +970,60 @@ export default function Index() {
           </div>
           {/* Main Footer Content */}
           <div className="grid lg:grid-cols-6 md:grid-cols-4 gap-8 mb-12">
-            {/* Brand & Description */}
+            {/* Company Information */}
             <div className="lg:col-span-2">
               <div className="flex items-center space-x-2 mb-4">
-                <div className="h-8 w-8 rounded-lg bg-primary flex items-center justify-center">
+                <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-primary to-cyber-blue flex items-center justify-center">
                   <Monitor className="h-5 w-5 text-primary-foreground" />
                 </div>
                 <span className="text-xl font-bold bg-gradient-to-r from-primary to-cyber-blue bg-clip-text text-transparent">
                   DarkGemini
                 </span>
               </div>
-              <p className="text-sm text-muted-foreground mb-4 leading-relaxed">
-                Revolutionary digital twin technology for cryptocurrency
-                trading. Experience parallel trading environments, predictive
-                analytics, and risk-free simulation with military-grade security
-                and real-time synchronization.
+              <p className="text-sm text-muted-foreground mb-6 leading-relaxed">
+                The world's first cryptocurrency trading platform powered by
+                digital twin technology. Practice trading without risk using our
+                99.7% accurate market simulation.
               </p>
-              <div className="flex space-x-4">
-                <Badge variant="secondary" className="text-xs">
-                  AI-Powered
-                </Badge>
-                <Badge variant="secondary" className="text-xs">
-                  Real-Time Sync
-                </Badge>
-                <Badge variant="secondary" className="text-xs">
-                  Zero-Risk Testing
-                </Badge>
+
+              {/* Certifications & Trust Indicators */}
+              <div className="space-y-3 mb-6">
+                <h5 className="font-semibold text-sm">Security & Compliance</h5>
+                <div className="grid grid-cols-2 gap-2">
+                  <Badge
+                    variant="outline"
+                    className="text-xs justify-center py-1"
+                  >
+                    SOC 2 Type II
+                  </Badge>
+                  <Badge
+                    variant="outline"
+                    className="text-xs justify-center py-1"
+                  >
+                    ISO 27001
+                  </Badge>
+                  <Badge
+                    variant="outline"
+                    className="text-xs justify-center py-1"
+                  >
+                    GDPR Compliant
+                  </Badge>
+                  <Badge
+                    variant="outline"
+                    className="text-xs justify-center py-1"
+                  >
+                    CCPA Compliant
+                  </Badge>
+                </div>
+              </div>
+
+              {/* Company Details */}
+              <div className="space-y-1 text-xs text-muted-foreground">
+                <p className="font-medium">DarkGemini Technologies, Inc.</p>
+                <p>1 Hacker Way, Suite 100</p>
+                <p>San Francisco, CA 94301, USA</p>
+                <p>Email: support@darkgemini.com</p>
+                <p>Business Hours: 24/7 Support</p>
               </div>
             </div>
 
