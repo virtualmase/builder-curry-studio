@@ -216,19 +216,19 @@ export default function Index() {
                   variant="secondary"
                   className="bg-primary/10 text-primary"
                 >
-                  🏆 Industry Leading
+                  Industry Leading
                 </Badge>
                 <Badge
                   variant="secondary"
                   className="bg-quantum-glow/10 text-quantum-glow"
                 >
-                  🔐 SOC 2 Certified
+                  Security Certified
                 </Badge>
                 <Badge
                   variant="secondary"
                   className="bg-cyber-blue/10 text-cyber-blue"
                 >
-                  🚀 Patent Pending
+                  Patent Pending
                 </Badge>
               </div>
             </div>
