@@ -11,6 +11,7 @@ import {
   Zap,
   Shield,
   ChevronDown,
+  BookOpen,
 } from "lucide-react";
 import {
   DropdownMenu,
@@ -36,32 +37,32 @@ export default function QuantumNav() {
 
   const navItems = [
     {
-      label: "Twin Engine",
+      label: "Dashboard",
       href: "/dashboard",
       icon: Brain,
       color: "cyber-blue",
-      badge: "Neural",
+      badge: "Live",
     },
     {
-      label: "Quantum Lab",
+      label: "FAQ",
+      href: "/faq",
+      icon: BookOpen,
+      color: "primary",
+      badge: "Help",
+    },
+    {
+      label: "Advanced",
       href: "#",
       icon: Zap,
       color: "quantum-glow",
-      badge: "Beta",
-    },
-    {
-      label: "Metaverse",
-      href: "#",
-      icon: Globe,
-      color: "cyber-purple",
-      badge: "VR",
+      badge: "Pro",
     },
     {
       label: "Security",
       href: "#",
       icon: Shield,
       color: "matrix-green",
-      badge: "Quantum",
+      badge: "Safe",
     },
   ];
 
