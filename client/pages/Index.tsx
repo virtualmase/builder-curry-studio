@@ -92,24 +92,26 @@ export default function Index() {
                 World's First Crypto Digital Twin Platform
               </Badge>
               <h1 className="text-5xl lg:text-6xl font-bold tracking-tight mb-6">
-                Trade Crypto with{" "}
+                Master Crypto Trading{" "}
                 <span className="bg-gradient-to-r from-primary via-cyber-blue to-electric-blue bg-clip-text text-transparent animate-float">
-                  Zero Risk
+                  Risk-Free
                 </span>
                 <br />
                 <span className="text-3xl lg:text-4xl text-muted-foreground">
-                  Using Advanced Digital Twins
+                  With Digital Twin Technology
                 </span>
               </h1>
               <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-                Practice cryptocurrency trading without losing money. Our
-                platform creates an exact copy of real crypto markets where you
-                can test trading strategies and learn risk-free. Get
+                Learn cryptocurrency trading without financial risk. Our
+                platform creates a perfect digital copy of real crypto markets
+                where you can practice strategies, analyze patterns, and build
+                confidence. Experience
                 <span className="text-primary font-semibold">
                   {" "}
-                  99.7% accurate{" "}
+                  99.7% market accuracy{" "}
                 </span>
-                market simulation powered by advanced AI technology.
+                powered by institutional-grade AI technology used by
+                professional trading firms.
               </p>
               <div className="flex flex-wrap gap-4 mb-8">
                 <div className="flex items-center gap-2 text-sm">
@@ -1360,13 +1362,64 @@ export default function Index() {
 
           {/* Legal & Copyright */}
           <div className="pt-8 border-t border-border/50">
-            <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+            <div className="grid md:grid-cols-2 gap-8 mb-6">
+              {/* Legal Information */}
+              <div>
+                <h5 className="font-semibold text-sm mb-3">
+                  Legal & Compliance
+                </h5>
+                <div className="space-y-2 text-xs text-muted-foreground">
+                  <p>
+                    <strong>Important Risk Disclosure:</strong> DarkGemini is a
+                    simulation platform for educational purposes. Cryptocurrency
+                    trading involves substantial risk of loss and is not
+                    suitable for all investors.
+                  </p>
+                  <p>
+                    <strong>Regulatory Status:</strong> DarkGemini Technologies,
+                    Inc. is a Delaware corporation. Our digital twin simulation
+                    platform operates under applicable financial technology
+                    regulations.
+                  </p>
+                  <p>
+                    <strong>Data Protection:</strong> We are GDPR, CCPA, and SOC
+                    2 compliant. Your data is encrypted and never shared with
+                    third parties.
+                  </p>
+                </div>
+              </div>
+
+              {/* Company Information */}
+              <div>
+                <h5 className="font-semibold text-sm mb-3">
+                  Company Information
+                </h5>
+                <div className="space-y-2 text-xs text-muted-foreground">
+                  <p>
+                    <strong>Founded:</strong> 2024 |{" "}
+                    <strong>Headquarters:</strong> San Francisco, CA
+                  </p>
+                  <p>
+                    <strong>Registration:</strong> Delaware Corporation #7654321
+                  </p>
+                  <p>
+                    <strong>Patents:</strong> 5 Filed, 2 Pending |{" "}
+                    <strong>Research Papers:</strong> 12 Published
+                  </p>
+                  <p>
+                    <strong>Security Audits:</strong> Quarterly by CyberSec
+                    Partners LLC
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="flex flex-col md:flex-row justify-between items-center gap-4 pt-6 border-t border-border/30">
               <div className="text-xs text-muted-foreground">
                 © 2024 DarkGemini Technologies, Inc. All rights reserved.
-                Digital Twin Trading Platform - Revolutionary Cryptocurrency
-                Simulation Technology.
+                Digital Twin Trading Platform - Patent Pending Technology.
               </div>
-              <div className="flex space-x-6 text-xs text-muted-foreground">
+              <div className="flex flex-wrap gap-4 text-xs text-muted-foreground">
                 <a href="#" className="hover:text-primary transition-colors">
                   Privacy Policy
                 </a>
@@ -1374,13 +1427,16 @@ export default function Index() {
                   Terms of Service
                 </a>
                 <a href="#" className="hover:text-primary transition-colors">
-                  Cookie Policy
-                </a>
-                <a href="#" className="hover:text-primary transition-colors">
                   Risk Disclosure
                 </a>
                 <a href="#" className="hover:text-primary transition-colors">
-                  Contact Us
+                  Cookie Policy
+                </a>
+                <a href="#" className="hover:text-primary transition-colors">
+                  Accessibility
+                </a>
+                <a href="#" className="hover:text-primary transition-colors">
+                  Sitemap
                 </a>
               </div>
             </div>
