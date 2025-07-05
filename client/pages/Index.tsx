@@ -92,9 +92,9 @@ export default function Index() {
                 World's First Crypto Digital Twin Platform
               </Badge>
               <h1 className="text-5xl lg:text-6xl font-bold tracking-tight mb-6">
-                Master Crypto Trading{" "}
+                Learn Crypto Trading{" "}
                 <span className="bg-gradient-to-r from-primary via-cyber-blue to-electric-blue bg-clip-text text-transparent animate-float">
-                  Risk-Free
+                  Safely
                 </span>
                 <br />
                 <span className="text-3xl lg:text-4xl text-muted-foreground">
