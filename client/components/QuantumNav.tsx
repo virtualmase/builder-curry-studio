@@ -12,6 +12,7 @@ import {
   Shield,
   ChevronDown,
   BookOpen,
+  Trophy,
 } from "lucide-react";
 import {
   DropdownMenu,
@@ -44,18 +45,18 @@ export default function QuantumNav() {
       badge: "Live",
     },
     {
+      label: "Contest",
+      href: "/contest",
+      icon: Trophy,
+      color: "warning-amber",
+      badge: "New",
+    },
+    {
       label: "FAQ",
       href: "/faq",
       icon: BookOpen,
       color: "primary",
       badge: "Help",
-    },
-    {
-      label: "Advanced",
-      href: "#",
-      icon: Zap,
-      color: "quantum-glow",
-      badge: "Pro",
     },
     {
       label: "Security",
