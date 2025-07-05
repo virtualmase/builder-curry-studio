@@ -89,7 +89,7 @@ export default function Index() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <Badge className="mb-4 bg-gradient-to-r from-primary/10 to-cyber-blue/10 text-primary border-primary/20 animate-pulse-glow">
-                🚀 World's First Crypto Digital Twin Platform
+                World's First Crypto Digital Twin Platform
               </Badge>
               <h1 className="text-5xl lg:text-6xl font-bold tracking-tight mb-6">
                 Trade Crypto with{" "}
@@ -446,7 +446,7 @@ export default function Index() {
                 </ul>
                 <div className="mt-4 p-3 rounded bg-primary/10 border border-primary/20">
                   <p className="text-sm text-primary font-semibold">
-                    🚀 First mover advantage in a $259B+ market opportunity
+                    First mover advantage in a $259B+ market opportunity
                   </p>
                 </div>
               </div>
@@ -652,7 +652,7 @@ export default function Index() {
         <div className="container relative">
           <div className="text-center mb-16">
             <Badge className="mb-4 bg-quantum-glow/10 text-quantum-glow border-quantum-glow/20 animate-pulse-glow">
-              🔮 Quantum Leap Technology
+              Advanced Quantum Technology
             </Badge>
             <h2 className="text-4xl font-bold mb-4">
               The Future of Trading is{" "}
