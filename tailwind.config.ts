@@ -61,6 +61,7 @@ export default {
           blue: "hsl(var(--cyber-blue))",
           purple: "hsl(var(--cyber-purple))",
           green: "hsl(var(--cyber-green))",
+          orange: "hsl(var(--cyber-orange))",
         },
         neural: {
           grid: "hsl(var(--neural-grid))",
@@ -70,6 +71,24 @@ export default {
         },
         sync: {
           pulse: "hsl(var(--sync-pulse))",
+        },
+        quantum: {
+          glow: "hsl(var(--quantum-glow))",
+        },
+        matrix: {
+          green: "hsl(var(--matrix-green))",
+        },
+        electric: {
+          blue: "hsl(var(--electric-blue))",
+        },
+        neon: {
+          pink: "hsl(var(--neon-pink))",
+        },
+        warning: {
+          amber: "hsl(var(--warning-amber))",
+        },
+        success: {
+          emerald: "hsl(var(--success-emerald))",
         },
       },
       borderRadius: {

@@ -9,52 +9,59 @@
    * A different format will require also updating the theme in tailwind.config.ts.
   */
   :root {
-    --background: 240 10% 3.9%;
-    --foreground: 0 0% 98%;
+    --background: 222 47% 2.4%;
+    --foreground: 210 40% 98%;
 
-    --card: 240 10% 3.9%;
-    --card-foreground: 0 0% 98%;
+    --card: 222 47% 3.2%;
+    --card-foreground: 210 40% 98%;
 
-    --popover: 240 10% 3.9%;
-    --popover-foreground: 0 0% 98%;
+    --popover: 222 47% 3.2%;
+    --popover-foreground: 210 40% 98%;
 
-    --primary: 142 76% 36%;
-    --primary-foreground: 240 10% 3.9%;
+    --primary: 170 100% 41%;
+    --primary-foreground: 222 47% 2.4%;
 
-    --secondary: 240 3.7% 15.9%;
-    --secondary-foreground: 0 0% 98%;
+    --secondary: 215 25% 12%;
+    --secondary-foreground: 210 40% 98%;
 
-    --muted: 240 3.7% 15.9%;
-    --muted-foreground: 240 5% 64.9%;
+    --muted: 215 25% 12%;
+    --muted-foreground: 217 10% 68%;
 
-    --accent: 240 3.7% 15.9%;
-    --accent-foreground: 0 0% 98%;
+    --accent: 215 25% 15%;
+    --accent-foreground: 210 40% 98%;
 
-    --destructive: 0 72% 51%;
-    --destructive-foreground: 0 0% 98%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
 
-    --border: 240 3.7% 15.9%;
-    --input: 240 3.7% 15.9%;
-    --ring: 142 76% 36%;
+    --border: 215 25% 15%;
+    --input: 215 25% 15%;
+    --ring: 170 100% 41%;
 
     --radius: 0.75rem;
 
-    --sidebar-background: 240 10% 3.9%;
-    --sidebar-foreground: 0 0% 98%;
-    --sidebar-primary: 142 76% 36%;
-    --sidebar-primary-foreground: 240 10% 3.9%;
-    --sidebar-accent: 240 3.7% 15.9%;
-    --sidebar-accent-foreground: 0 0% 98%;
-    --sidebar-border: 240 3.7% 15.9%;
-    --sidebar-ring: 142 76% 36%;
+    --sidebar-background: 222 47% 2.4%;
+    --sidebar-foreground: 210 40% 98%;
+    --sidebar-primary: 170 100% 41%;
+    --sidebar-primary-foreground: 222 47% 2.4%;
+    --sidebar-accent: 215 25% 15%;
+    --sidebar-accent-foreground: 210 40% 98%;
+    --sidebar-border: 215 25% 15%;
+    --sidebar-ring: 170 100% 41%;
 
-    /* Digital Twin specific colors */
-    --cyber-blue: 191 100% 50%;
-    --cyber-purple: 270 100% 50%;
-    --cyber-green: 142 76% 36%;
-    --neural-grid: 240 3.7% 25.9%;
-    --data-flow: 191 100% 35%;
-    --sync-pulse: 142 100% 45%;
+    /* Enhanced Digital Twin specific colors */
+    --cyber-blue: 195 100% 50%;
+    --cyber-purple: 270 91% 65%;
+    --cyber-green: 170 100% 41%;
+    --cyber-orange: 25 95% 53%;
+    --neural-grid: 215 25% 20%;
+    --data-flow: 195 100% 40%;
+    --sync-pulse: 170 100% 50%;
+    --quantum-glow: 285 85% 70%;
+    --matrix-green: 140 100% 35%;
+    --electric-blue: 200 100% 45%;
+    --neon-pink: 320 100% 70%;
+    --warning-amber: 45 100% 51%;
+    --success-emerald: 158 64% 52%;
   }
 
   .dark {
