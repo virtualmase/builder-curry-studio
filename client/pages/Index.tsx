@@ -88,7 +88,7 @@ export default function Index() {
         <div className="relative container py-20">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <Badge className="mb-4 bg-gradient-to-r from-primary/10 to-cyber-blue/10 text-primary border-primary/20 animate-pulse-glow">
+              <Badge className="mb-4 bg-primary/90 text-primary-foreground border-primary/50 px-4 py-2 text-sm font-semibold">
                 World's First Crypto Digital Twin Platform
               </Badge>
               <h1 className="text-5xl lg:text-6xl font-bold tracking-tight mb-6">
