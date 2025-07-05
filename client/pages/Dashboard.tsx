@@ -375,18 +375,62 @@ export default function Dashboard() {
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-3">
-                <Button className="w-full justify-start">
+                <Button className="w-full justify-start bg-gradient-to-r from-primary to-cyber-blue hover:from-primary/90 hover:to-cyber-blue/90">
                   <Play className="h-4 w-4 mr-2" />
-                  Run Simulation
+                  Run Quantum Simulation
                 </Button>
-                <Button variant="outline" className="w-full justify-start">
+                <Button
+                  variant="outline"
+                  className="w-full justify-start border-quantum-glow/50 text-quantum-glow hover:bg-quantum-glow/10"
+                >
                   <RefreshCw className="h-4 w-4 mr-2" />
-                  Force Sync
+                  Quantum Sync
                 </Button>
                 <Button variant="outline" className="w-full justify-start">
                   <Activity className="h-4 w-4 mr-2" />
-                  View Logs
+                  Neural Logs
                 </Button>
+                <Button
+                  variant="outline"
+                  className="w-full justify-start border-cyber-purple/50 text-cyber-purple hover:bg-cyber-purple/10"
+                >
+                  <Brain className="h-4 w-4 mr-2" />
+                  Enter Metaverse
+                </Button>
+              </CardContent>
+            </Card>
+
+            <Card className="border-quantum-glow/20">
+              <CardHeader>
+                <CardTitle className="flex items-center gap-2">
+                  <div className="h-5 w-5 rounded-full bg-quantum-glow/20 flex items-center justify-center">
+                    <span className="text-quantum-glow text-xs">🔮</span>
+                  </div>
+                  Quantum Features
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="space-y-4">
+                <div className="space-y-2">
+                  <div className="flex justify-between text-sm">
+                    <span>Quantum Coherence</span>
+                    <span className="text-quantum-glow">Active</span>
+                  </div>
+                  <Progress value={94} className="h-1" />
+                </div>
+                <div className="space-y-2">
+                  <div className="flex justify-between text-sm">
+                    <span>Parallel Universes</span>
+                    <span className="text-cyber-purple">∞</span>
+                  </div>
+                  <Progress value={100} className="h-1" />
+                </div>
+                <div className="space-y-2">
+                  <div className="flex justify-between text-sm">
+                    <span>Reality Synchronization</span>
+                    <span className="text-primary">99.97%</span>
+                  </div>
+                  <Progress value={99.97} className="h-1" />
+                </div>
               </CardContent>
             </Card>
           </div>
