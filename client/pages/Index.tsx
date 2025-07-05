@@ -187,31 +187,42 @@ export default function Index() {
           </div>
         </div>
 
-        {/* Trust Indicators */}
-        <div className="relative border-t border-border/50 py-8">
+        {/* Trust Indicators & Partnerships */}
+        <div className="relative border-t border-border/50 py-12">
           <div className="container">
-            <div className="flex flex-col md:flex-row items-center justify-between gap-8 text-center md:text-left">
+            {/* Performance Metrics */}
+            <div className="flex flex-col md:flex-row items-center justify-between gap-8 text-center md:text-left mb-12">
               <div className="flex items-center gap-8">
                 <div className="flex flex-col items-center">
                   <div className="text-2xl font-bold text-primary">99.7%</div>
                   <div className="text-xs text-muted-foreground">
-                    Accuracy Rate
+                    Market Accuracy
                   </div>
                 </div>
                 <div className="flex flex-col items-center">
                   <div className="text-2xl font-bold text-cyber-blue">12ms</div>
                   <div className="text-xs text-muted-foreground">
-                    Avg Latency
+                    Response Time
                   </div>
                 </div>
                 <div className="flex flex-col items-center">
                   <div className="text-2xl font-bold text-success-emerald">
-                    24/7
+                    99.99%
                   </div>
-                  <div className="text-xs text-muted-foreground">Uptime</div>
+                  <div className="text-xs text-muted-foreground">
+                    Uptime SLA
+                  </div>
+                </div>
+                <div className="flex flex-col items-center">
+                  <div className="text-2xl font-bold text-warning-amber">
+                    2.1M+
+                  </div>
+                  <div className="text-xs text-muted-foreground">
+                    Active Users
+                  </div>
                 </div>
               </div>
-              <div className="flex items-center gap-6">
+              <div className="flex flex-wrap items-center gap-4">
                 <Badge
                   variant="secondary"
                   className="bg-primary/10 text-primary"
@@ -222,14 +233,69 @@ export default function Index() {
                   variant="secondary"
                   className="bg-quantum-glow/10 text-quantum-glow"
                 >
-                  Security Certified
+                  SOC 2 Certified
                 </Badge>
                 <Badge
                   variant="secondary"
                   className="bg-cyber-blue/10 text-cyber-blue"
                 >
-                  Patent Pending
+                  Patents Filed
                 </Badge>
+                <Badge
+                  variant="secondary"
+                  className="bg-success-emerald/10 text-success-emerald"
+                >
+                  Enterprise Ready
+                </Badge>
+              </div>
+            </div>
+
+            {/* Academic & Industry Partnerships */}
+            <div className="text-center">
+              <h3 className="text-lg font-semibold mb-6 text-muted-foreground">
+                Research Partners & Academic Collaborations
+              </h3>
+              <div className="grid grid-cols-2 md:grid-cols-5 gap-8 items-center opacity-60">
+                <div className="flex flex-col items-center">
+                  <div className="h-8 w-16 bg-muted-foreground/20 rounded mb-2 flex items-center justify-center">
+                    <span className="text-xs font-bold">MIT</span>
+                  </div>
+                  <span className="text-xs text-muted-foreground">
+                    CSAIL Partnership
+                  </span>
+                </div>
+                <div className="flex flex-col items-center">
+                  <div className="h-8 w-16 bg-muted-foreground/20 rounded mb-2 flex items-center justify-center">
+                    <span className="text-xs font-bold">Stanford</span>
+                  </div>
+                  <span className="text-xs text-muted-foreground">
+                    Research Collaboration
+                  </span>
+                </div>
+                <div className="flex flex-col items-center">
+                  <div className="h-8 w-16 bg-muted-foreground/20 rounded mb-2 flex items-center justify-center">
+                    <span className="text-xs font-bold">IBM</span>
+                  </div>
+                  <span className="text-xs text-muted-foreground">
+                    Quantum Network
+                  </span>
+                </div>
+                <div className="flex flex-col items-center">
+                  <div className="h-8 w-16 bg-muted-foreground/20 rounded mb-2 flex items-center justify-center">
+                    <span className="text-xs font-bold">CMU</span>
+                  </div>
+                  <span className="text-xs text-muted-foreground">
+                    FinTech Lab
+                  </span>
+                </div>
+                <div className="flex flex-col items-center">
+                  <div className="h-8 w-16 bg-muted-foreground/20 rounded mb-2 flex items-center justify-center">
+                    <span className="text-xs font-bold">ETH</span>
+                  </div>
+                  <span className="text-xs text-muted-foreground">
+                    AI Research
+                  </span>
+                </div>
               </div>
             </div>
           </div>
