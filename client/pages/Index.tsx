@@ -391,57 +391,347 @@ export default function Index() {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="border-t border-border py-12">
-        <div className="container">
-          <div className="grid md:grid-cols-4 gap-8">
-            <div>
+      {/* Enhanced SEO Footer */}
+      <footer className="border-t border-border bg-muted/20">
+        <div className="container py-16">
+          {/* Main Footer Content */}
+          <div className="grid lg:grid-cols-6 md:grid-cols-4 gap-8 mb-12">
+            {/* Brand & Description */}
+            <div className="lg:col-span-2">
               <div className="flex items-center space-x-2 mb-4">
-                <div className="h-6 w-6 rounded bg-primary flex items-center justify-center">
-                  <Monitor className="h-4 w-4 text-primary-foreground" />
+                <div className="h-8 w-8 rounded-lg bg-primary flex items-center justify-center">
+                  <Monitor className="h-5 w-5 text-primary-foreground" />
                 </div>
-                <span className="font-bold">DarkGemini</span>
+                <span className="text-xl font-bold bg-gradient-to-r from-primary to-cyber-blue bg-clip-text text-transparent">
+                  DarkGemini
+                </span>
               </div>
-              <p className="text-sm text-muted-foreground">
-                The future of cryptocurrency trading through advanced digital
-                twin technology.
+              <p className="text-sm text-muted-foreground mb-4 leading-relaxed">
+                Revolutionary digital twin technology for cryptocurrency
+                trading. Experience parallel trading environments, predictive
+                analytics, and risk-free simulation with military-grade security
+                and real-time synchronization.
               </p>
+              <div className="flex space-x-4">
+                <Badge variant="secondary" className="text-xs">
+                  AI-Powered
+                </Badge>
+                <Badge variant="secondary" className="text-xs">
+                  Real-Time Sync
+                </Badge>
+                <Badge variant="secondary" className="text-xs">
+                  Zero-Risk Testing
+                </Badge>
+              </div>
             </div>
 
+            {/* Digital Twin Solutions */}
             <div>
-              <h4 className="font-medium mb-3">Platform</h4>
-              <ul className="space-y-2 text-sm text-muted-foreground">
-                <li>Digital Twin</li>
-                <li>Analytics</li>
-                <li>Security</li>
-                <li>API</li>
+              <h4 className="font-semibold mb-4 text-primary">
+                Digital Twin Solutions
+              </h4>
+              <ul className="space-y-3 text-sm text-muted-foreground">
+                <li>
+                  <a href="#" className="hover:text-primary transition-colors">
+                    Crypto Trading Simulation
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-primary transition-colors">
+                    Real-Time Market Mirror
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-primary transition-colors">
+                    Risk Assessment Tools
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-primary transition-colors">
+                    Portfolio Optimization
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-primary transition-colors">
+                    Predictive Analytics
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-primary transition-colors">
+                    Neural Trading Insights
+                  </a>
+                </li>
               </ul>
             </div>
 
+            {/* Fintech Technology */}
             <div>
-              <h4 className="font-medium mb-3">Technology</h4>
-              <ul className="space-y-2 text-sm text-muted-foreground">
-                <li>Neural Networks</li>
-                <li>Real-time Sync</li>
-                <li>Quantum Security</li>
-                <li>Distributed Systems</li>
+              <h4 className="font-semibold mb-4 text-primary">
+                Fintech Technology
+              </h4>
+              <ul className="space-y-3 text-sm text-muted-foreground">
+                <li>
+                  <a href="#" className="hover:text-primary transition-colors">
+                    Blockchain Analytics
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-primary transition-colors">
+                    DeFi Simulation
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-primary transition-colors">
+                    Smart Contract Testing
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-primary transition-colors">
+                    Quantum Security
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-primary transition-colors">
+                    AI Market Analysis
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-primary transition-colors">
+                    Sentiment Analysis
+                  </a>
+                </li>
               </ul>
             </div>
 
+            {/* Trading Features */}
             <div>
-              <h4 className="font-medium mb-3">Company</h4>
-              <ul className="space-y-2 text-sm text-muted-foreground">
-                <li>About</li>
-                <li>Contact</li>
-                <li>Privacy</li>
-                <li>Terms</li>
+              <h4 className="font-semibold mb-4 text-primary">
+                Trading Features
+              </h4>
+              <ul className="space-y-3 text-sm text-muted-foreground">
+                <li>
+                  <a href="#" className="hover:text-primary transition-colors">
+                    Advanced Charting
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-primary transition-colors">
+                    Order Book Analysis
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-primary transition-colors">
+                    Automated Strategies
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-primary transition-colors">
+                    Paper Trading
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-primary transition-colors">
+                    Market Visualization
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-primary transition-colors">
+                    Performance Analytics
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            {/* Resources */}
+            <div>
+              <h4 className="font-semibold mb-4 text-primary">Resources</h4>
+              <ul className="space-y-3 text-sm text-muted-foreground">
+                <li>
+                  <a href="#" className="hover:text-primary transition-colors">
+                    API Documentation
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-primary transition-colors">
+                    Developer Guide
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-primary transition-colors">
+                    Tutorials
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-primary transition-colors">
+                    White Papers
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-primary transition-colors">
+                    Research Reports
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-primary transition-colors">
+                    Case Studies
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
 
-          <div className="mt-8 pt-8 border-t border-border text-center text-sm text-muted-foreground">
-            © 2024 DarkGemini. All rights reserved. Digital Twin Technology
-            Platform.
+          {/* Secondary Footer Links */}
+          <div className="grid md:grid-cols-4 gap-8 py-8 border-t border-border/50">
+            <div>
+              <h5 className="font-medium mb-3 text-sm">
+                Cryptocurrency Platforms
+              </h5>
+              <ul className="space-y-2 text-xs text-muted-foreground">
+                <li>
+                  <a href="#" className="hover:text-primary transition-colors">
+                    Bitcoin Trading Simulator
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-primary transition-colors">
+                    Ethereum Mirror Trading
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-primary transition-colors">
+                    Altcoin Analysis Tools
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-primary transition-colors">
+                    Stablecoin Strategies
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h5 className="font-medium mb-3 text-sm">
+                AI & Machine Learning
+              </h5>
+              <ul className="space-y-2 text-xs text-muted-foreground">
+                <li>
+                  <a href="#" className="hover:text-primary transition-colors">
+                    Neural Network Training
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-primary transition-colors">
+                    Pattern Recognition
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-primary transition-colors">
+                    Algorithmic Trading
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-primary transition-colors">
+                    Machine Learning Models
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h5 className="font-medium mb-3 text-sm">
+                Security & Compliance
+              </h5>
+              <ul className="space-y-2 text-xs text-muted-foreground">
+                <li>
+                  <a href="#" className="hover:text-primary transition-colors">
+                    Zero-Trust Architecture
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-primary transition-colors">
+                    Encryption Protocols
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-primary transition-colors">
+                    Regulatory Compliance
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-primary transition-colors">
+                    Audit Reports
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h5 className="font-medium mb-3 text-sm">Market Data</h5>
+              <ul className="space-y-2 text-xs text-muted-foreground">
+                <li>
+                  <a href="#" className="hover:text-primary transition-colors">
+                    Real-Time Feeds
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-primary transition-colors">
+                    Historical Data
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-primary transition-colors">
+                    Market Indicators
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-primary transition-colors">
+                    Technical Analysis
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          {/* Legal & Copyright */}
+          <div className="pt-8 border-t border-border/50">
+            <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+              <div className="text-xs text-muted-foreground">
+                © 2024 DarkGemini Technologies, Inc. All rights reserved.
+                Digital Twin Trading Platform - Revolutionary Cryptocurrency
+                Simulation Technology.
+              </div>
+              <div className="flex space-x-6 text-xs text-muted-foreground">
+                <a href="#" className="hover:text-primary transition-colors">
+                  Privacy Policy
+                </a>
+                <a href="#" className="hover:text-primary transition-colors">
+                  Terms of Service
+                </a>
+                <a href="#" className="hover:text-primary transition-colors">
+                  Cookie Policy
+                </a>
+                <a href="#" className="hover:text-primary transition-colors">
+                  Risk Disclosure
+                </a>
+                <a href="#" className="hover:text-primary transition-colors">
+                  Contact Us
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* SEO Keywords Section */}
+          <div className="mt-8 pt-6 border-t border-border/30">
+            <div className="text-center">
+              <p className="text-xs text-muted-foreground/70 leading-relaxed max-w-4xl mx-auto">
+                <span className="font-medium">DarkGemini</span> - Leading
+                Digital Twin Technology for Cryptocurrency Trading | Advanced
+                Fintech Solutions | AI-Powered Trading Simulation | Real-Time
+                Crypto Market Mirroring | Blockchain Analytics Platform | DeFi
+                Simulation Tools | Quantum-Secured Trading Environment | Neural
+                Network Market Analysis | Predictive Trading Algorithms |
+                Risk-Free Crypto Testing | Professional Trading Simulation |
+                Enterprise Digital Twin Solutions
+              </p>
+            </div>
           </div>
         </div>
       </footer>
