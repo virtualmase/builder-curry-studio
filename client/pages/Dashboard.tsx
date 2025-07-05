@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
+import QuantumNav from "@/components/QuantumNav";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
@@ -84,37 +85,7 @@ export default function Dashboard() {
 
   return (
     <div className="min-h-screen bg-background text-foreground">
-      {/* Navigation */}
-      <nav className="border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-        <div className="container flex h-16 items-center">
-          <Link to="/" className="flex items-center space-x-2">
-            <div className="h-8 w-8 rounded-lg bg-primary flex items-center justify-center">
-              <Monitor className="h-5 w-5 text-primary-foreground" />
-            </div>
-            <span className="text-xl font-bold bg-gradient-to-r from-primary to-cyber-blue bg-clip-text text-transparent">
-              DarkGemini
-            </span>
-          </Link>
-
-          <div className="ml-auto flex items-center space-x-6">
-            <div className="flex items-center space-x-2">
-              <div
-                className={`h-2 w-2 rounded-full ${isLive ? "bg-primary animate-pulse" : "bg-muted"}`}
-              />
-              <span className="text-sm text-muted-foreground">
-                {isLive ? "Live Sync" : "Disconnected"}
-              </span>
-            </div>
-            <Badge variant="secondary" className="bg-primary/10 text-primary">
-              Twin Active
-            </Badge>
-            <Button variant="outline" size="sm">
-              <RefreshCw className="h-4 w-4 mr-2" />
-              Sync Now
-            </Button>
-          </div>
-        </div>
-      </nav>
+      <QuantumNav />
 
       <div className="container py-8">
         {/* Header Stats */}
