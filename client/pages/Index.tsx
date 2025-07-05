@@ -102,15 +102,14 @@ export default function Index() {
                 </span>
               </h1>
               <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-                The only platform that creates a perfect digital mirror of live
-                crypto markets. Test strategies, predict outcomes, and optimize
-                portfolios with
+                Practice cryptocurrency trading without losing money. Our
+                platform creates an exact copy of real crypto markets where you
+                can test trading strategies and learn risk-free. Get
                 <span className="text-primary font-semibold">
                   {" "}
-                  99.7% accuracy{" "}
+                  99.7% accurate{" "}
                 </span>
-                before risking real capital. Powered by neural networks and
-                quantum-secured infrastructure.
+                market simulation powered by advanced AI technology.
               </p>
               <div className="flex flex-wrap gap-4 mb-8">
                 <div className="flex items-center gap-2 text-sm">
@@ -788,7 +787,7 @@ export default function Index() {
           {/* Future Timeline */}
           <div className="mt-16 p-8 rounded-2xl bg-gradient-to-r from-neural-grid/30 to-background border border-border">
             <h3 className="text-2xl font-bold mb-6 text-center">
-              🚀 DarkGemini Roadmap to the Future
+              DarkGemini Development Roadmap
             </h3>
             <div className="grid md:grid-cols-4 gap-6">
               <div className="text-center">
