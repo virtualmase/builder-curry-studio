@@ -90,6 +90,16 @@ export default function Index() {
           </div>
 
           <div className="ml-auto flex items-center space-x-6">
+            <div className="hidden md:flex items-center space-x-4 text-xs text-muted-foreground">
+              <div className="flex items-center gap-1">
+                <div className="h-1.5 w-1.5 rounded-full bg-success-emerald animate-pulse" />
+                <span>12,847 Active Users</span>
+              </div>
+              <div className="flex items-center gap-1">
+                <div className="h-1.5 w-1.5 rounded-full bg-cyber-blue animate-pulse" />
+                <span>$2.4B Volume Simulated</span>
+              </div>
+            </div>
             <div className="flex items-center space-x-2">
               <div
                 className={`h-2 w-2 rounded-full ${isLive ? "bg-primary animate-pulse" : "bg-muted"}`}
@@ -105,7 +115,10 @@ export default function Index() {
               </Button>
             </Link>
             <Link to="/dashboard">
-              <Button size="sm">
+              <Button
+                size="sm"
+                className="bg-gradient-to-r from-primary to-cyber-blue hover:from-primary/90 hover:to-cyber-blue/90"
+              >
                 <Play className="h-4 w-4 mr-2" />
                 Launch Twin
               </Button>
