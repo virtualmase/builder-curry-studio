@@ -47,26 +47,31 @@ export default function Index() {
   const features = [
     {
       icon: Brain,
-      title: "Neural Synchronization",
+      title: "Adaptive Neural Networks",
       description:
-        "Advanced AI-driven real-time mirroring of Gemini's trading infrastructure",
+        "Self-learning AI that evolves with market patterns, providing increasingly accurate predictions and risk assessments",
+      color: "cyber-blue",
     },
     {
       icon: Shield,
-      title: "Military-Grade Security",
+      title: "Quantum-Resistant Security",
       description:
-        "Zero-trust architecture with quantum-resistant encryption protocols",
+        "Next-generation cryptographic protection that remains secure against quantum computing attacks",
+      color: "quantum-glow",
     },
     {
       icon: Network,
-      title: "Distributed Architecture",
+      title: "Global Edge Network",
       description:
-        "Decentralized nodes ensuring 99.99% uptime and fault tolerance",
+        "Distributed infrastructure across 6 continents ensuring 99.99% uptime and ultra-low latency worldwide",
+      color: "success-emerald",
     },
     {
       icon: Zap,
-      title: "Lightning Performance",
-      description: "Sub-millisecond latency with optimized data pipelines",
+      title: "Microsecond Execution",
+      description:
+        "Blazing-fast trade simulation with real-time market synchronization faster than human perception",
+      color: "cyber-orange",
     },
   ];
 
@@ -218,12 +223,99 @@ export default function Index() {
         </div>
       </section>
 
+      {/* Competitive Advantages */}
+      <section className="py-20 bg-gradient-to-b from-muted/20 to-background">
+        <div className="container">
+          <div className="text-center mb-16">
+            <Badge className="mb-4 bg-cyber-orange/10 text-cyber-orange border-cyber-orange/20">
+              Market-Leading Innovation
+            </Badge>
+            <h2 className="text-3xl font-bold mb-4">
+              Why DarkGemini Dominates the Market
+            </h2>
+            <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+              While other platforms offer basic paper trading, we deliver the
+              world's first true digital twin of live crypto markets. Experience
+              what billion-dollar trading firms use internally.
+            </p>
+          </div>
+
+          <div className="grid lg:grid-cols-3 gap-8 mb-16">
+            <Card className="border-cyber-blue/20 hover:border-cyber-blue/50 transition-all duration-300 hover:shadow-lg hover:shadow-cyber-blue/10">
+              <CardHeader>
+                <div className="h-12 w-12 rounded-lg bg-cyber-blue/10 flex items-center justify-center mb-4">
+                  <Brain className="h-6 w-6 text-cyber-blue" />
+                </div>
+                <CardTitle className="text-lg">Real-Time Neural Sync</CardTitle>
+                <CardDescription className="text-muted-foreground">
+                  <span className="text-destructive font-semibold">
+                    Competitors:
+                  </span>{" "}
+                  Static simulations with delayed data
+                  <br />
+                  <span className="text-primary font-semibold">
+                    DarkGemini:
+                  </span>{" "}
+                  Live neural network synchronization with sub-millisecond
+                  latency
+                </CardDescription>
+              </CardHeader>
+            </Card>
+
+            <Card className="border-quantum-glow/20 hover:border-quantum-glow/50 transition-all duration-300 hover:shadow-lg hover:shadow-quantum-glow/10">
+              <CardHeader>
+                <div className="h-12 w-12 rounded-lg bg-quantum-glow/10 flex items-center justify-center mb-4">
+                  <Shield className="h-6 w-6 text-quantum-glow" />
+                </div>
+                <CardTitle className="text-lg">
+                  Quantum-Secured Infrastructure
+                </CardTitle>
+                <CardDescription className="text-muted-foreground">
+                  <span className="text-destructive font-semibold">
+                    Competitors:
+                  </span>{" "}
+                  Basic SSL encryption, vulnerable to future quantum attacks
+                  <br />
+                  <span className="text-primary font-semibold">
+                    DarkGemini:
+                  </span>{" "}
+                  Quantum-resistant cryptography protecting against next-gen
+                  threats
+                </CardDescription>
+              </CardHeader>
+            </Card>
+
+            <Card className="border-success-emerald/20 hover:border-success-emerald/50 transition-all duration-300 hover:shadow-lg hover:shadow-success-emerald/10">
+              <CardHeader>
+                <div className="h-12 w-12 rounded-lg bg-success-emerald/10 flex items-center justify-center mb-4">
+                  <Network className="h-6 w-6 text-success-emerald" />
+                </div>
+                <CardTitle className="text-lg">
+                  Institutional-Grade Analytics
+                </CardTitle>
+                <CardDescription className="text-muted-foreground">
+                  <span className="text-destructive font-semibold">
+                    Competitors:
+                  </span>{" "}
+                  Basic charts and indicators for retail traders
+                  <br />
+                  <span className="text-primary font-semibold">
+                    DarkGemini:
+                  </span>{" "}
+                  Hedge fund-level analytics with predictive AI models
+                </CardDescription>
+              </CardHeader>
+            </Card>
+          </div>
+        </div>
+      </section>
+
       {/* Features Section */}
       <section className="py-20">
         <div className="container">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold mb-4">
-              Advanced Digital Twin Architecture
+              Revolutionary Digital Twin Architecture
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               Built on cutting-edge technology to deliver unprecedented accuracy
@@ -235,11 +327,19 @@ export default function Index() {
             {features.map((feature, index) => (
               <Card
                 key={index}
-                className="border-border/50 hover:border-primary/50 transition-colors"
+                className={`border-${feature.color}/20 hover:border-${feature.color}/50 transition-all duration-300 hover:shadow-lg group`}
+                style={{
+                  boxShadow: `0 0 0 1px hsl(var(--${feature.color})/0.2)`,
+                }}
               >
                 <CardHeader>
-                  <div className="h-12 w-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
-                    <feature.icon className="h-6 w-6 text-primary" />
+                  <div
+                    className={`h-12 w-12 rounded-lg bg-${feature.color}/10 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300`}
+                  >
+                    <feature.icon
+                      className={`h-6 w-6 text-${feature.color}`}
+                      style={{ color: `hsl(var(--${feature.color}))` }}
+                    />
                   </div>
                   <CardTitle className="text-lg">{feature.title}</CardTitle>
                 </CardHeader>
