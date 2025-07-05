@@ -354,15 +354,132 @@ export default function Index() {
         </div>
       </section>
 
+      {/* Market Gap Analysis */}
+      <section className="py-20 bg-gradient-to-r from-neural-grid/20 via-background to-neural-grid/20">
+        <div className="container">
+          <div className="text-center mb-16">
+            <Badge className="mb-4 bg-warning-amber/10 text-warning-amber border-warning-amber/20">
+              Market Research Insights
+            </Badge>
+            <h2 className="text-3xl font-bold mb-4">
+              The $259B Digital Twin Market Gap
+            </h2>
+            <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+              Current crypto platforms only offer basic paper trading. The
+              digital twin market is projected to reach $259.32 billion by 2032,
+              but no platform combines this technology with cryptocurrency
+              trading until now.
+            </p>
+          </div>
+
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div className="space-y-8">
+              <div className="p-6 rounded-lg border border-destructive/20 bg-destructive/5">
+                <h3 className="text-xl font-semibold mb-4 text-destructive">
+                  Traditional Crypto Platforms
+                </h3>
+                <ul className="space-y-3 text-muted-foreground">
+                  <li className="flex items-center gap-3">
+                    <div className="h-2 w-2 rounded-full bg-destructive/60" />
+                    Simple paper trading with fake money
+                  </li>
+                  <li className="flex items-center gap-3">
+                    <div className="h-2 w-2 rounded-full bg-destructive/60" />
+                    Delayed data feeds (15-30 minute lag)
+                  </li>
+                  <li className="flex items-center gap-3">
+                    <div className="h-2 w-2 rounded-full bg-destructive/60" />
+                    Basic charting tools only
+                  </li>
+                  <li className="flex items-center gap-3">
+                    <div className="h-2 w-2 rounded-full bg-destructive/60" />
+                    No predictive analytics
+                  </li>
+                  <li className="flex items-center gap-3">
+                    <div className="h-2 w-2 rounded-full bg-destructive/60" />
+                    Single-server architecture (downtime prone)
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="space-y-8">
+              <div className="p-6 rounded-lg border border-primary/20 bg-primary/5">
+                <h3 className="text-xl font-semibold mb-4 text-primary">
+                  DarkGemini Digital Twin
+                </h3>
+                <ul className="space-y-3 text-muted-foreground">
+                  <li className="flex items-center gap-3">
+                    <div className="h-2 w-2 rounded-full bg-primary animate-pulse" />
+                    Perfect digital replica of live markets
+                  </li>
+                  <li className="flex items-center gap-3">
+                    <div className="h-2 w-2 rounded-full bg-primary animate-pulse" />
+                    Real-time data synchronization (sub-millisecond)
+                  </li>
+                  <li className="flex items-center gap-3">
+                    <div className="h-2 w-2 rounded-full bg-primary animate-pulse" />
+                    AI-powered predictive modeling
+                  </li>
+                  <li className="flex items-center gap-3">
+                    <div className="h-2 w-2 rounded-full bg-primary animate-pulse" />
+                    Neural network pattern recognition
+                  </li>
+                  <li className="flex items-center gap-3">
+                    <div className="h-2 w-2 rounded-full bg-primary animate-pulse" />
+                    Global distributed infrastructure
+                  </li>
+                </ul>
+                <div className="mt-4 p-3 rounded bg-primary/10 border border-primary/20">
+                  <p className="text-sm text-primary font-semibold">
+                    🚀 First mover advantage in a $259B+ market opportunity
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="mt-16 text-center">
+            <div className="grid md:grid-cols-3 gap-8">
+              <div className="p-6 rounded-lg bg-card border border-border">
+                <div className="text-3xl font-bold text-primary mb-2">
+                  $259B
+                </div>
+                <p className="text-sm text-muted-foreground">
+                  Digital Twin Market by 2032
+                </p>
+              </div>
+              <div className="p-6 rounded-lg bg-card border border-border">
+                <div className="text-3xl font-bold text-cyber-blue mb-2">
+                  40.1%
+                </div>
+                <p className="text-sm text-muted-foreground">
+                  Annual Growth Rate (CAGR)
+                </p>
+              </div>
+              <div className="p-6 rounded-lg bg-card border border-border">
+                <div className="text-3xl font-bold text-success-emerald mb-2">
+                  0
+                </div>
+                <p className="text-sm text-muted-foreground">
+                  Current Crypto Digital Twins
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Dashboard Preview */}
       <section className="py-20 bg-muted/30">
         <div className="container">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold mb-4">
-              Real-Time Twin Dashboard
+              Enterprise-Grade Twin Dashboard
             </h2>
             <p className="text-lg text-muted-foreground">
               Monitor, analyze, and interact with your digital twin environment
+              like never before
             </p>
           </div>
 
