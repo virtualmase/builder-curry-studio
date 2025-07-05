@@ -693,6 +693,196 @@ export default function Index() {
         </div>
       </section>
 
+      {/* Quantum Leap Features */}
+      <section className="py-20 bg-gradient-to-b from-background via-neural-grid/10 to-background relative overflow-hidden">
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-quantum-glow/5 via-transparent to-transparent" />
+        <div className="container relative">
+          <div className="text-center mb-16">
+            <Badge className="mb-4 bg-quantum-glow/10 text-quantum-glow border-quantum-glow/20 animate-pulse-glow">
+              🔮 Quantum Leap Technology
+            </Badge>
+            <h2 className="text-4xl font-bold mb-4">
+              The Future of Trading is{" "}
+              <span className="bg-gradient-to-r from-quantum-glow via-cyber-purple to-electric-blue bg-clip-text text-transparent">
+                Already Here
+              </span>
+            </h2>
+            <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+              Experience tomorrow's trading technology today. DarkGemini doesn't
+              just simulate the future - it creates it.
+            </p>
+          </div>
+
+          <div className="grid lg:grid-cols-3 gap-8">
+            {/* Quantum Computing Integration */}
+            <Card className="border-quantum-glow/20 hover:border-quantum-glow/50 transition-all duration-500 hover:shadow-2xl hover:shadow-quantum-glow/20 group">
+              <CardHeader>
+                <div className="h-16 w-16 rounded-xl bg-gradient-to-br from-quantum-glow/20 to-cyber-purple/20 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
+                  <Brain className="h-8 w-8 text-quantum-glow animate-pulse" />
+                </div>
+                <CardTitle className="text-xl mb-2">
+                  Quantum Neural Networks
+                </CardTitle>
+                <CardDescription className="text-muted-foreground">
+                  Harness quantum computing power for exponentially faster
+                  market analysis and pattern recognition that breaks the laws
+                  of classical computing.
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <div className="space-y-3">
+                  <div className="flex justify-between items-center">
+                    <span className="text-sm">Quantum Advantage</span>
+                    <Badge className="bg-quantum-glow/10 text-quantum-glow">
+                      1000x Faster
+                    </Badge>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-sm">Parallel Simulations</span>
+                    <Badge className="bg-cyber-purple/10 text-cyber-purple">
+                      Infinite
+                    </Badge>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-sm">Market Prediction</span>
+                    <Badge className="bg-electric-blue/10 text-electric-blue">
+                      Probability Fields
+                    </Badge>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Metaverse Integration */}
+            <Card className="border-cyber-purple/20 hover:border-cyber-purple/50 transition-all duration-500 hover:shadow-2xl hover:shadow-cyber-purple/20 group">
+              <CardHeader>
+                <div className="h-16 w-16 rounded-xl bg-gradient-to-br from-cyber-purple/20 to-neon-pink/20 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
+                  <Globe className="h-8 w-8 text-cyber-purple animate-float" />
+                </div>
+                <CardTitle className="text-xl mb-2">
+                  Metaverse Trading Worlds
+                </CardTitle>
+                <CardDescription className="text-muted-foreground">
+                  Step into immersive 3D trading environments where data becomes
+                  landscapes and market movements create virtual worlds you can
+                  explore.
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <div className="space-y-3">
+                  <div className="flex justify-between items-center">
+                    <span className="text-sm">VR/AR Integration</span>
+                    <Badge className="bg-cyber-purple/10 text-cyber-purple">
+                      Full Immersion
+                    </Badge>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-sm">Social Trading</span>
+                    <Badge className="bg-neon-pink/10 text-neon-pink">
+                      Multi-Avatar
+                    </Badge>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-sm">Data Visualization</span>
+                    <Badge className="bg-electric-blue/10 text-electric-blue">
+                      Holographic
+                    </Badge>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* AI Consciousness */}
+            <Card className="border-matrix-green/20 hover:border-matrix-green/50 transition-all duration-500 hover:shadow-2xl hover:shadow-matrix-green/20 group">
+              <CardHeader>
+                <div className="h-16 w-16 rounded-xl bg-gradient-to-br from-matrix-green/20 to-success-emerald/20 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
+                  <Network className="h-8 w-8 text-matrix-green" />
+                </div>
+                <CardTitle className="text-xl mb-2">
+                  Sentient AI Trading Partners
+                </CardTitle>
+                <CardDescription className="text-muted-foreground">
+                  Advanced AI consciousness that learns your trading style,
+                  thinks independently, and evolves trading strategies that
+                  adapt to your goals.
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <div className="space-y-3">
+                  <div className="flex justify-between items-center">
+                    <span className="text-sm">AI Intelligence</span>
+                    <Badge className="bg-matrix-green/10 text-matrix-green">
+                      AGI Level
+                    </Badge>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-sm">Learning Speed</span>
+                    <Badge className="bg-success-emerald/10 text-success-emerald">
+                      Continuous
+                    </Badge>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-sm">Emotional Intelligence</span>
+                    <Badge className="bg-cyber-blue/10 text-cyber-blue">
+                      Empathetic
+                    </Badge>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+
+          {/* Future Timeline */}
+          <div className="mt-16 p-8 rounded-2xl bg-gradient-to-r from-neural-grid/30 to-background border border-border">
+            <h3 className="text-2xl font-bold mb-6 text-center">
+              🚀 DarkGemini Roadmap to the Future
+            </h3>
+            <div className="grid md:grid-cols-4 gap-6">
+              <div className="text-center">
+                <div className="h-12 w-12 rounded-full bg-primary/20 flex items-center justify-center mx-auto mb-4">
+                  <span className="text-primary font-bold">Q1</span>
+                </div>
+                <h4 className="font-semibold text-sm mb-2">
+                  Quantum Neural Launch
+                </h4>
+                <p className="text-xs text-muted-foreground">
+                  First quantum-powered digital twin deployment
+                </p>
+              </div>
+              <div className="text-center">
+                <div className="h-12 w-12 rounded-full bg-cyber-purple/20 flex items-center justify-center mx-auto mb-4">
+                  <span className="text-cyber-purple font-bold">Q2</span>
+                </div>
+                <h4 className="font-semibold text-sm mb-2">Metaverse Beta</h4>
+                <p className="text-xs text-muted-foreground">
+                  3D immersive trading environments
+                </p>
+              </div>
+              <div className="text-center">
+                <div className="h-12 w-12 rounded-full bg-matrix-green/20 flex items-center justify-center mx-auto mb-4">
+                  <span className="text-matrix-green font-bold">Q3</span>
+                </div>
+                <h4 className="font-semibold text-sm mb-2">AI Consciousness</h4>
+                <p className="text-xs text-muted-foreground">
+                  Sentient trading partner deployment
+                </p>
+              </div>
+              <div className="text-center">
+                <div className="h-12 w-12 rounded-full bg-quantum-glow/20 flex items-center justify-center mx-auto mb-4">
+                  <span className="text-quantum-glow font-bold">Q4</span>
+                </div>
+                <h4 className="font-semibold text-sm mb-2">
+                  Multiverse Trading
+                </h4>
+                <p className="text-xs text-muted-foreground">
+                  Cross-dimensional market analysis
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Enhanced SEO Footer */}
       <footer className="border-t border-border bg-gradient-to-b from-muted/20 to-neural-grid/30">
         <div className="container py-16">
