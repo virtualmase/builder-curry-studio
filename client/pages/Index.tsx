@@ -694,8 +694,138 @@ export default function Index() {
       </section>
 
       {/* Enhanced SEO Footer */}
-      <footer className="border-t border-border bg-muted/20">
+      <footer className="border-t border-border bg-gradient-to-b from-muted/20 to-neural-grid/30">
         <div className="container py-16">
+          {/* Social Media Hub */}
+          <div className="text-center mb-16">
+            <h3 className="text-2xl font-bold mb-4 bg-gradient-to-r from-primary to-cyber-blue bg-clip-text text-transparent">
+              Join the Digital Twin Revolution
+            </h3>
+            <p className="text-muted-foreground mb-8 max-w-2xl mx-auto">
+              Connect with our global community of quantum traders, AI
+              researchers, and digital twin pioneers
+            </p>
+
+            {/* Comprehensive Social Media Grid */}
+            <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-4 max-w-4xl mx-auto mb-8">
+              {/* Major Social Platforms */}
+              <a
+                href="#"
+                className="group flex flex-col items-center p-4 rounded-lg border border-border hover:border-primary/50 hover:bg-primary/5 transition-all duration-300"
+              >
+                <div className="h-8 w-8 rounded-full bg-cyber-blue/10 flex items-center justify-center mb-2 group-hover:scale-110 transition-transform">
+                  <span className="text-cyber-blue text-sm font-bold">𝕏</span>
+                </div>
+                <span className="text-xs text-muted-foreground">Twitter</span>
+                <span className="text-xs text-primary">847K</span>
+              </a>
+
+              <a
+                href="#"
+                className="group flex flex-col items-center p-4 rounded-lg border border-border hover:border-quantum-glow/50 hover:bg-quantum-glow/5 transition-all duration-300"
+              >
+                <div className="h-8 w-8 rounded-full bg-quantum-glow/10 flex items-center justify-center mb-2 group-hover:scale-110 transition-transform">
+                  <span className="text-quantum-glow text-sm">💬</span>
+                </div>
+                <span className="text-xs text-muted-foreground">Discord</span>
+                <span className="text-xs text-primary">234K</span>
+              </a>
+
+              <a
+                href="#"
+                className="group flex flex-col items-center p-4 rounded-lg border border-border hover:border-electric-blue/50 hover:bg-electric-blue/5 transition-all duration-300"
+              >
+                <div className="h-8 w-8 rounded-full bg-electric-blue/10 flex items-center justify-center mb-2 group-hover:scale-110 transition-transform">
+                  <span className="text-electric-blue text-sm">✈️</span>
+                </div>
+                <span className="text-xs text-muted-foreground">Telegram</span>
+                <span className="text-xs text-primary">156K</span>
+              </a>
+
+              <a
+                href="#"
+                className="group flex flex-col items-center p-4 rounded-lg border border-border hover:border-neon-pink/50 hover:bg-neon-pink/5 transition-all duration-300"
+              >
+                <div className="h-8 w-8 rounded-full bg-neon-pink/10 flex items-center justify-center mb-2 group-hover:scale-110 transition-transform">
+                  <span className="text-neon-pink text-sm">📷</span>
+                </div>
+                <span className="text-xs text-muted-foreground">Instagram</span>
+                <span className="text-xs text-primary">423K</span>
+              </a>
+
+              <a
+                href="#"
+                className="group flex flex-col items-center p-4 rounded-lg border border-border hover:border-cyber-blue/50 hover:bg-cyber-blue/5 transition-all duration-300"
+              >
+                <div className="h-8 w-8 rounded-full bg-cyber-blue/10 flex items-center justify-center mb-2 group-hover:scale-110 transition-transform">
+                  <span className="text-cyber-blue text-sm">💼</span>
+                </div>
+                <span className="text-xs text-muted-foreground">LinkedIn</span>
+                <span className="text-xs text-primary">89K</span>
+              </a>
+
+              <a
+                href="#"
+                className="group flex flex-col items-center p-4 rounded-lg border border-border hover:border-destructive/50 hover:bg-destructive/5 transition-all duration-300"
+              >
+                <div className="h-8 w-8 rounded-full bg-destructive/10 flex items-center justify-center mb-2 group-hover:scale-110 transition-transform">
+                  <span className="text-destructive text-sm">📺</span>
+                </div>
+                <span className="text-xs text-muted-foreground">YouTube</span>
+                <span className="text-xs text-primary">567K</span>
+              </a>
+
+              <a
+                href="#"
+                className="group flex flex-col items-center p-4 rounded-lg border border-border hover:border-matrix-green/50 hover:bg-matrix-green/5 transition-all duration-300"
+              >
+                <div className="h-8 w-8 rounded-full bg-matrix-green/10 flex items-center justify-center mb-2 group-hover:scale-110 transition-transform">
+                  <span className="text-matrix-green text-sm">🏛️</span>
+                </div>
+                <span className="text-xs text-muted-foreground">GitHub</span>
+                <span className="text-xs text-primary">34K</span>
+              </a>
+
+              <a
+                href="#"
+                className="group flex flex-col items-center p-4 rounded-lg border border-border hover:border-cyber-orange/50 hover:bg-cyber-orange/5 transition-all duration-300"
+              >
+                <div className="h-8 w-8 rounded-full bg-cyber-orange/10 flex items-center justify-center mb-2 group-hover:scale-110 transition-transform">
+                  <span className="text-cyber-orange text-sm">🎵</span>
+                </div>
+                <span className="text-xs text-muted-foreground">TikTok</span>
+                <span className="text-xs text-primary">1.2M</span>
+              </a>
+            </div>
+
+            {/* Community Stats */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+              <div className="p-6 rounded-lg bg-card/50 border border-border">
+                <div className="text-3xl font-bold text-primary mb-2">
+                  2.1M+
+                </div>
+                <p className="text-sm text-muted-foreground">
+                  Global Community Members
+                </p>
+              </div>
+              <div className="p-6 rounded-lg bg-card/50 border border-border">
+                <div className="text-3xl font-bold text-cyber-blue mb-2">
+                  156
+                </div>
+                <p className="text-sm text-muted-foreground">
+                  Countries Reached
+                </p>
+              </div>
+              <div className="p-6 rounded-lg bg-card/50 border border-border">
+                <div className="text-3xl font-bold text-success-emerald mb-2">
+                  24/7
+                </div>
+                <p className="text-sm text-muted-foreground">
+                  Community Support
+                </p>
+              </div>
+            </div>
+          </div>
           {/* Main Footer Content */}
           <div className="grid lg:grid-cols-6 md:grid-cols-4 gap-8 mb-12">
             {/* Brand & Description */}
