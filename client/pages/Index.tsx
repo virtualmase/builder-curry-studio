@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -92,14 +93,18 @@ export default function Index() {
                 {isLive ? "Live Sync" : "Disconnected"}
               </span>
             </div>
-            <Button variant="outline" size="sm">
-              <Activity className="h-4 w-4 mr-2" />
-              Monitor
-            </Button>
-            <Button size="sm">
-              <Play className="h-4 w-4 mr-2" />
-              Launch Twin
-            </Button>
+            <Link to="/dashboard">
+              <Button variant="outline" size="sm">
+                <Activity className="h-4 w-4 mr-2" />
+                Monitor
+              </Button>
+            </Link>
+            <Link to="/dashboard">
+              <Button size="sm">
+                <Play className="h-4 w-4 mr-2" />
+                Launch Twin
+              </Button>
+            </Link>
           </div>
         </div>
       </nav>
@@ -127,14 +132,22 @@ export default function Index() {
                 and risk simulation in a secure mirror environment.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button size="lg" className="text-lg px-8">
-                  <RefreshCw className="h-5 w-5 mr-2" />
-                  Initialize Twin
-                </Button>
-                <Button size="lg" variant="outline" className="text-lg px-8">
-                  <BarChart3 className="h-5 w-5 mr-2" />
-                  View Analytics
-                </Button>
+                <Link to="/dashboard">
+                  <Button size="lg" className="text-lg px-8 w-full sm:w-auto">
+                    <RefreshCw className="h-5 w-5 mr-2" />
+                    Initialize Twin
+                  </Button>
+                </Link>
+                <Link to="/dashboard">
+                  <Button
+                    size="lg"
+                    variant="outline"
+                    className="text-lg px-8 w-full sm:w-auto"
+                  >
+                    <BarChart3 className="h-5 w-5 mr-2" />
+                    View Analytics
+                  </Button>
+                </Link>
               </div>
             </div>
 
