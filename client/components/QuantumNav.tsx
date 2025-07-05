@@ -78,7 +78,7 @@ export default function QuantumNav() {
               DarkGemini
             </span>
             <span className="text-xs text-muted-foreground -mt-1">
-              Quantum Twin Engine
+              Digital Twin Platform
             </span>
           </div>
         </Link>
@@ -150,10 +150,10 @@ export default function QuantumNav() {
               <Button variant="outline" size="sm" className="gap-2">
                 <div className="h-6 w-6 rounded-full bg-gradient-to-br from-primary to-cyber-blue flex items-center justify-center">
                   <span className="text-xs font-bold text-primary-foreground">
-                    Q
+                    U
                   </span>
                 </div>
-                <span className="text-sm">Quantum User</span>
+                <span className="text-sm">User</span>
                 <ChevronDown className="h-3 w-3" />
               </Button>
             </DropdownMenuTrigger>
