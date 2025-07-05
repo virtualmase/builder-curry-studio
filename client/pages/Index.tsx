@@ -117,20 +117,44 @@ export default function Index() {
         <div className="relative container py-20">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <Badge className="mb-4 bg-primary/10 text-primary border-primary/20">
-                Next-Gen Digital Twin Technology
+              <Badge className="mb-4 bg-gradient-to-r from-primary/10 to-cyber-blue/10 text-primary border-primary/20 animate-pulse-glow">
+                🚀 World's First Crypto Digital Twin Platform
               </Badge>
-              <h1 className="text-5xl font-bold tracking-tight mb-6">
-                Mirror the Future of{" "}
-                <span className="bg-gradient-to-r from-primary via-cyber-blue to-cyber-purple bg-clip-text text-transparent">
-                  Cryptocurrency Trading
+              <h1 className="text-5xl lg:text-6xl font-bold tracking-tight mb-6">
+                Trade Crypto with{" "}
+                <span className="bg-gradient-to-r from-primary via-cyber-blue to-electric-blue bg-clip-text text-transparent animate-float">
+                  Zero Risk
+                </span>
+                <br />
+                <span className="text-3xl lg:text-4xl text-muted-foreground">
+                  Using Advanced Digital Twins
                 </span>
               </h1>
               <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-                DarkGemini creates a real-time digital twin of Gemini's trading
-                ecosystem. Experience parallel trading, predictive analytics,
-                and risk simulation in a secure mirror environment.
+                The only platform that creates a perfect digital mirror of live
+                crypto markets. Test strategies, predict outcomes, and optimize
+                portfolios with
+                <span className="text-primary font-semibold">
+                  {" "}
+                  99.7% accuracy{" "}
+                </span>
+                before risking real capital. Powered by neural networks and
+                quantum-secured infrastructure.
               </p>
+              <div className="flex flex-wrap gap-4 mb-8">
+                <div className="flex items-center gap-2 text-sm">
+                  <div className="h-2 w-2 rounded-full bg-success-emerald animate-pulse" />
+                  <span>Real-time synchronization with live markets</span>
+                </div>
+                <div className="flex items-center gap-2 text-sm">
+                  <div className="h-2 w-2 rounded-full bg-cyber-blue animate-pulse" />
+                  <span>AI-powered predictive analytics</span>
+                </div>
+                <div className="flex items-center gap-2 text-sm">
+                  <div className="h-2 w-2 rounded-full bg-quantum-glow animate-pulse" />
+                  <span>Military-grade security protocols</span>
+                </div>
+              </div>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link to="/dashboard">
                   <Button size="lg" className="text-lg px-8 w-full sm:w-auto">
