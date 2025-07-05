@@ -1085,13 +1085,33 @@ export default function Index() {
                 </div>
               </div>
 
+              {/* Global Locations */}
+              <div className="space-y-3 mb-6">
+                <h5 className="font-semibold text-sm">
+                  Global Research Centers
+                </h5>
+                <div className="space-y-2 text-xs text-muted-foreground">
+                  <div className="flex justify-between">
+                    <span className="font-medium">San Francisco</span>
+                    <span>Headquarters & AI Research</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="font-medium">New York</span>
+                    <span>Financial Markets & Trading</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="font-medium">Singapore</span>
+                    <span>APAC Operations & Compliance</span>
+                  </div>
+                </div>
+              </div>
+
               {/* Company Details */}
               <div className="space-y-1 text-xs text-muted-foreground">
-                <p className="font-medium">DarkGemini Technologies, Inc.</p>
-                <p>1 Hacker Way, Suite 100</p>
-                <p>San Francisco, CA 94301, USA</p>
-                <p>Email: support@darkgemini.com</p>
-                <p>Business Hours: 24/7 Support</p>
+                <p className="font-medium">Dark Gemini Labs, Inc.</p>
+                <p>Delaware Corporation #DGL-2024-001</p>
+                <p>Email: research@darkgeminilabs.com</p>
+                <p>Support: 24/7 Global Coverage</p>
               </div>
             </div>
 
