@@ -1436,8 +1436,8 @@ export default function Index() {
 
             <div className="flex flex-col md:flex-row justify-between items-center gap-4 pt-6 border-t border-border/30">
               <div className="text-xs text-muted-foreground">
-                © 2024 DarkGemini Technologies, Inc. All rights reserved.
-                Digital Twin Trading Platform - Patent Pending Technology.
+                © 2024 Dark Gemini Labs, Inc. All rights reserved. Digital Twin
+                Trading Platform - Patent Pending Technology.
               </div>
               <div className="flex flex-wrap gap-4 text-xs text-muted-foreground">
                 <a href="#" className="hover:text-primary transition-colors">
