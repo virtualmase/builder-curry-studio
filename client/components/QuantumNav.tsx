@@ -142,7 +142,7 @@ export default function QuantumNav() {
               }`}
             />
             <span className="text-sm text-muted-foreground">
-              {isLive ? "Neural Sync" : "Disconnected"}
+              {isLive ? "NPU Active" : "Disconnected"}
             </span>
           </div>
 

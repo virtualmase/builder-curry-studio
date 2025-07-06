@@ -327,7 +327,9 @@ export default function Index() {
                 <div className="h-12 w-12 rounded-lg bg-cyber-blue/10 flex items-center justify-center mb-4">
                   <Brain className="h-6 w-6 text-cyber-blue" />
                 </div>
-                <CardTitle className="text-lg">Real-Time Neural Sync</CardTitle>
+                <CardTitle className="text-lg">
+                  Real-Time NPU Processing
+                </CardTitle>
                 <CardDescription className="text-muted-foreground">
                   <span className="text-destructive font-semibold">
                     Competitors:
