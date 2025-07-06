@@ -398,11 +398,12 @@ export default function Index() {
         <div className="container">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold mb-4">
-              Revolutionary Digital Twin Architecture
+              Elite Tier Infrastructure Stack
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Built on cutting-edge technology to deliver unprecedented accuracy
-              and performance in cryptocurrency market simulation.
+              Designed for institutional players by institutional players. The
+              same technology powering billion-dollar prop shops and sovereign
+              wealth funds, now accessible through our permissionless platform.
             </p>
           </div>
 
