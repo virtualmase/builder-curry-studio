@@ -109,9 +109,9 @@ export default function Index() {
                   {" "}
                   an unfair advantage:{" "}
                 </span>
-                a platform designed from 2034, reverse-engineered for today's
-                markets. The same quantum algorithms that will power Bloomberg
-                Terminal 2034.
+                quantum-native algorithms built by former Goldman Sachs quants
+                and Renaissance Technologies researchers for institutional-grade
+                digital twin infrastructure.
               </p>
               <div className="flex flex-wrap gap-4 mb-8">
                 <div className="flex items-center gap-2 text-sm">
