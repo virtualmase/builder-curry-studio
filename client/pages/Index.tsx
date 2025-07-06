@@ -102,29 +102,29 @@ export default function Index() {
                 </span>
               </h1>
               <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-                Learn cryptocurrency trading without financial risk. Our
-                platform creates a perfect digital copy of real crypto markets
-                where you can practice strategies, analyze patterns, and build
-                confidence. Experience
+                Institutional-grade cryptocurrency simulation platform
+                engineered by quantitative researchers for professional trading
+                operations. Our digital twin infrastructure delivers
                 <span className="text-primary font-semibold">
                   {" "}
-                  99.7% market accuracy{" "}
+                  99.7% market fidelity{" "}
                 </span>
-                powered by institutional-grade AI technology used by
-                professional trading firms.
+                using the same neural processing units and quantum algorithms
+                deployed by tier-one investment banks and proprietary trading
+                firms.
               </p>
               <div className="flex flex-wrap gap-4 mb-8">
                 <div className="flex items-center gap-2 text-sm">
                   <div className="h-2 w-2 rounded-full bg-success-emerald animate-pulse" />
-                  <span>Real-time synchronization with live markets</span>
+                  <span>Microsecond market synchronization</span>
                 </div>
                 <div className="flex items-center gap-2 text-sm">
                   <div className="h-2 w-2 rounded-full bg-cyber-blue animate-pulse" />
-                  <span>AI-powered predictive analytics</span>
+                  <span>Permissionless global access</span>
                 </div>
                 <div className="flex items-center gap-2 text-sm">
                   <div className="h-2 w-2 rounded-full bg-quantum-glow animate-pulse" />
-                  <span>Military-grade security protocols</span>
+                  <span>Bulletproof infrastructure</span>
                 </div>
               </div>
               <div className="flex flex-col sm:flex-row gap-4">
