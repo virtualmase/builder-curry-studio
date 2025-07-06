@@ -134,7 +134,7 @@ export default function Index() {
                     className="text-lg px-8 w-full sm:w-auto bg-gradient-to-r from-quantum-glow to-cyber-purple hover:from-quantum-glow/90 hover:to-cyber-purple/90"
                   >
                     <Monitor className="h-5 w-5 mr-2" />
-                    Access Terminal 2034
+                    Access Quantum Terminal
                   </Button>
                 </Link>
                 <Link to="/dashboard">
