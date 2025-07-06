@@ -298,7 +298,7 @@ export default function Index() {
                     <span className="text-xs font-bold">IAS</span>
                   </div>
                   <span className="text-xs text-muted-foreground">
-                    AI Research
+                    Advanced Study
                   </span>
                 </div>
               </div>
