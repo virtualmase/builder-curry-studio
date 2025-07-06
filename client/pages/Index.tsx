@@ -48,30 +48,30 @@ export default function Index() {
   const features = [
     {
       icon: Brain,
-      title: "Adaptive Neural Networks",
+      title: "Neural Processing Units",
       description:
-        "Self-learning AI that evolves with market patterns, providing increasingly accurate predictions and risk assessments",
+        "Custom silicon NPUs delivering 1000x performance advantage over traditional CPUs for financial modeling and risk calculations",
       color: "cyber-blue",
     },
     {
       icon: Shield,
-      title: "Quantum-Resistant Security",
+      title: "Sanctionproof Architecture",
       description:
-        "Next-generation cryptographic protection that remains secure against quantum computing attacks",
+        "Distributed nodes across 12 jurisdictions with quantum-encrypted communication channels immune to state-level interference",
       color: "quantum-glow",
     },
     {
       icon: Network,
-      title: "Global Edge Network",
+      title: "Dark Pool Simulation",
       description:
-        "Distributed infrastructure across 6 continents ensuring 99.99% uptime and ultra-low latency worldwide",
+        "Institutional-grade order flow analysis and iceberg order detection using the same algorithms as tier-one prime brokers",
       color: "success-emerald",
     },
     {
       icon: Zap,
-      title: "Microsecond Execution",
+      title: "Atomic Synchronization",
       description:
-        "Blazing-fast trade simulation with real-time market synchronization faster than human perception",
+        "GPS-synchronized atomic clocks ensuring nanosecond precision across global trading venues and dark pools",
       color: "cyber-orange",
     },
   ];
