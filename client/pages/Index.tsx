@@ -102,16 +102,16 @@ export default function Index() {
                 </span>
               </h1>
               <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-                Institutional-grade cryptocurrency simulation platform
-                engineered by quantitative researchers for professional trading
-                operations. Our digital twin infrastructure delivers
+                From the resurrection of Butterfly Labs' legendary data
+                infrastructure. After complete metamorphosis under new
+                ownership, we've emerged with
                 <span className="text-primary font-semibold">
                   {" "}
-                  99.7% market fidelity{" "}
+                  an unfair advantage:{" "}
                 </span>
-                using the same neural processing units and quantum algorithms
-                deployed by tier-one investment banks and proprietary trading
-                firms.
+                a platform designed from 2034, reverse-engineered for today's
+                markets. The same quantum algorithms that will power Bloomberg
+                Terminal 2034.
               </p>
               <div className="flex flex-wrap gap-4 mb-8">
                 <div className="flex items-center gap-2 text-sm">
