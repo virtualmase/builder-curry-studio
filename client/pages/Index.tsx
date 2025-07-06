@@ -128,20 +128,23 @@ export default function Index() {
                 </div>
               </div>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Link to="/dashboard">
-                  <Button size="lg" className="text-lg px-8 w-full sm:w-auto">
-                    <RefreshCw className="h-5 w-5 mr-2" />
-                    Initialize Twin
+                <Link to="/terminal">
+                  <Button
+                    size="lg"
+                    className="text-lg px-8 w-full sm:w-auto bg-gradient-to-r from-quantum-glow to-cyber-purple hover:from-quantum-glow/90 hover:to-cyber-purple/90"
+                  >
+                    <Monitor className="h-5 w-5 mr-2" />
+                    Access Terminal 2034
                   </Button>
                 </Link>
                 <Link to="/dashboard">
                   <Button
                     size="lg"
                     variant="outline"
-                    className="text-lg px-8 w-full sm:w-auto"
+                    className="text-lg px-8 w-full sm:w-auto border-primary/50 hover:bg-primary/10"
                   >
-                    <BarChart3 className="h-5 w-5 mr-2" />
-                    View Analytics
+                    <Brain className="h-5 w-5 mr-2" />
+                    Initialize Digital Twin
                   </Button>
                 </Link>
               </div>
