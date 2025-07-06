@@ -89,7 +89,7 @@ export default function Index() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <Badge className="mb-4 bg-primary/90 text-primary-foreground border-primary/50 px-4 py-2 text-sm font-semibold">
-                World's First Crypto Digital Twin Platform
+                Institutional Digital Twin Infrastructure
               </Badge>
               <h1 className="text-5xl lg:text-6xl font-bold tracking-tight mb-6">
                 Learn Crypto Trading{" "}
