@@ -92,13 +92,13 @@ export default function Index() {
                 Institutional Digital Twin Infrastructure
               </Badge>
               <h1 className="text-5xl lg:text-6xl font-bold tracking-tight mb-6">
-                Learn Crypto Trading{" "}
+                Elite Quantitative{" "}
                 <span className="bg-gradient-to-r from-primary via-cyber-blue to-electric-blue bg-clip-text text-transparent animate-float">
-                  Safely
+                  Infrastructure
                 </span>
                 <br />
                 <span className="text-3xl lg:text-4xl text-muted-foreground">
-                  With Digital Twin Technology
+                  For Institutional Digital Twins
                 </span>
               </h1>
               <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
