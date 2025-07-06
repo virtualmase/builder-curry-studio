@@ -49,7 +49,7 @@ export default function QuantumNav() {
       href: "/terminal",
       icon: Monitor,
       color: "quantum-glow",
-      badge: "2034",
+      badge: "Quantum",
     },
     {
       label: "Leaderboard",

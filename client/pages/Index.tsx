@@ -266,20 +266,12 @@ export default function Index() {
                     <span className="text-xs font-bold">MIT</span>
                   </div>
                   <span className="text-xs text-muted-foreground">
-                    CSAIL Partnership
+                    CSAIL Quantum Lab
                   </span>
                 </div>
                 <div className="flex flex-col items-center">
                   <div className="h-8 w-16 bg-muted-foreground/20 rounded mb-2 flex items-center justify-center">
-                    <span className="text-xs font-bold">Stanford</span>
-                  </div>
-                  <span className="text-xs text-muted-foreground">
-                    Research Collaboration
-                  </span>
-                </div>
-                <div className="flex flex-col items-center">
-                  <div className="h-8 w-16 bg-muted-foreground/20 rounded mb-2 flex items-center justify-center">
-                    <span className="text-xs font-bold">IBM</span>
+                    <span className="text-xs font-bold">Caltech</span>
                   </div>
                   <span className="text-xs text-muted-foreground">
                     Quantum Network
@@ -287,15 +279,23 @@ export default function Index() {
                 </div>
                 <div className="flex flex-col items-center">
                   <div className="h-8 w-16 bg-muted-foreground/20 rounded mb-2 flex items-center justify-center">
-                    <span className="text-xs font-bold">CMU</span>
+                    <span className="text-xs font-bold">CERN</span>
                   </div>
                   <span className="text-xs text-muted-foreground">
-                    FinTech Lab
+                    Quantum Computing
                   </span>
                 </div>
                 <div className="flex flex-col items-center">
                   <div className="h-8 w-16 bg-muted-foreground/20 rounded mb-2 flex items-center justify-center">
-                    <span className="text-xs font-bold">ETH</span>
+                    <span className="text-xs font-bold">Oxford</span>
+                  </div>
+                  <span className="text-xs text-muted-foreground">
+                    Mathematical Institute
+                  </span>
+                </div>
+                <div className="flex flex-col items-center">
+                  <div className="h-8 w-16 bg-muted-foreground/20 rounded mb-2 flex items-center justify-center">
+                    <span className="text-xs font-bold">IAS</span>
                   </div>
                   <span className="text-xs text-muted-foreground">
                     AI Research
