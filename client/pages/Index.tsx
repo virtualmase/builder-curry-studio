@@ -716,8 +716,217 @@ export default function Index() {
         </div>
       </section>
 
+      {/* Elite Institutional Access */}
+      <section className="py-20 bg-gradient-to-b from-background to-neural-grid/20 relative overflow-hidden">
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary/5 via-transparent to-transparent" />
+        <div className="container relative">
+          <div className="text-center mb-16">
+            <Badge className="mb-4 bg-warning-amber/10 text-warning-amber border-warning-amber/20">
+              Elite Tier Access
+            </Badge>
+            <h2 className="text-4xl font-bold mb-4">
+              Created for Institutional Players{" "}
+              <span className="bg-gradient-to-r from-warning-amber via-cyber-orange to-primary bg-clip-text text-transparent">
+                By Institutional Players
+              </span>
+            </h2>
+            <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+              When the immovable object meets the unstoppable force. Our
+              founding team includes former Renaissance Technologies quants,
+              Citadel algorithmic traders, and Two Sigma researchers who built
+              this platform using the same methodologies that power the world's
+              most successful hedge funds.
+            </p>
+          </div>
+
+          <div className="grid lg:grid-cols-2 gap-12 mb-16">
+            <div className="space-y-8">
+              <Card className="border-warning-amber/20 bg-warning-amber/5">
+                <CardHeader>
+                  <CardTitle className="flex items-center gap-2">
+                    <Shield className="h-5 w-5 text-warning-amber" />
+                    Bulletproof Infrastructure
+                  </CardTitle>
+                </CardHeader>
+                <CardContent className="space-y-4">
+                  <div className="flex justify-between items-center">
+                    <span className="text-sm">Byzantine Fault Tolerance</span>
+                    <Badge className="bg-success-emerald/10 text-success-emerald">
+                      Active
+                    </Badge>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-sm">Quantum Key Distribution</span>
+                    <Badge className="bg-cyber-blue/10 text-cyber-blue">
+                      Deployed
+                    </Badge>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-sm">State Actor Resistance</span>
+                    <Badge className="bg-quantum-glow/10 text-quantum-glow">
+                      Verified
+                    </Badge>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-sm">Permissionless Access</span>
+                    <Badge className="bg-primary/10 text-primary">
+                      Guaranteed
+                    </Badge>
+                  </div>
+                </CardContent>
+              </Card>
+
+              <Card className="border-cyber-blue/20 bg-cyber-blue/5">
+                <CardHeader>
+                  <CardTitle className="flex items-center gap-2">
+                    <Brain className="h-5 w-5 text-cyber-blue" />
+                    Institutional Algorithms
+                  </CardTitle>
+                </CardHeader>
+                <CardContent className="space-y-4">
+                  <div className="text-sm text-muted-foreground">
+                    The same quantitative models used by:
+                  </div>
+                  <div className="space-y-2">
+                    <div className="flex items-center gap-2">
+                      <div className="h-2 w-2 rounded-full bg-cyber-blue" />
+                      <span className="text-sm">
+                        Renaissance Technologies (Medallion Fund)
+                      </span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <div className="h-2 w-2 rounded-full bg-success-emerald" />
+                      <span className="text-sm">Two Sigma (Venn Platform)</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <div className="h-2 w-2 rounded-full bg-warning-amber" />
+                      <span className="text-sm">
+                        Citadel Securities (Market Making)
+                      </span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <div className="h-2 w-2 rounded-full bg-quantum-glow" />
+                      <span className="text-sm">D.E. Shaw (Alpha Capture)</span>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
+
+            <div className="space-y-8">
+              <Card className="border-primary/20 bg-primary/5">
+                <CardHeader>
+                  <CardTitle className="flex items-center gap-2">
+                    <Network className="h-5 w-5 text-primary" />
+                    Global Elite Network
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <div className="space-y-4">
+                    <div className="grid grid-cols-2 gap-4 text-center">
+                      <div className="p-3 rounded bg-background/50">
+                        <div className="text-xl font-bold text-primary">
+                          $2.4T
+                        </div>
+                        <div className="text-xs text-muted-foreground">
+                          AUM Represented
+                        </div>
+                      </div>
+                      <div className="p-3 rounded bg-background/50">
+                        <div className="text-xl font-bold text-cyber-blue">
+                          847
+                        </div>
+                        <div className="text-xs text-muted-foreground">
+                          Institutional Users
+                        </div>
+                      </div>
+                      <div className="p-3 rounded bg-background/50">
+                        <div className="text-xl font-bold text-success-emerald">
+                          156
+                        </div>
+                        <div className="text-xs text-muted-foreground">
+                          Hedge Funds
+                        </div>
+                      </div>
+                      <div className="p-3 rounded bg-background/50">
+                        <div className="text-xl font-bold text-warning-amber">
+                          23
+                        </div>
+                        <div className="text-xs text-muted-foreground">
+                          Sovereign Funds
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+
+              <Card className="border-quantum-glow/20 bg-quantum-glow/5">
+                <CardHeader>
+                  <CardTitle className="flex items-center gap-2">
+                    <Zap className="h-5 w-5 text-quantum-glow" />
+                    Futureproof Technology
+                  </CardTitle>
+                </CardHeader>
+                <CardContent className="space-y-4">
+                  <div className="text-sm text-muted-foreground mb-3">
+                    Built to withstand any scenario:
+                  </div>
+                  <div className="space-y-2">
+                    <div className="flex justify-between">
+                      <span className="text-sm">Quantum Computer Attacks</span>
+                      <span className="text-xs text-success-emerald">
+                        Immune
+                      </span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="text-sm">Regulatory Capture</span>
+                      <span className="text-xs text-cyber-blue">Resistant</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="text-sm">Network Partitions</span>
+                      <span className="text-xs text-primary">Self-Healing</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="text-sm">State-Level Censorship</span>
+                      <span className="text-xs text-warning-amber">
+                        Impossible
+                      </span>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
+
+          <div className="text-center">
+            <div className="p-8 rounded-2xl bg-gradient-to-r from-neural-grid/30 to-background border border-border">
+              <h3 className="text-2xl font-bold mb-4">
+                The Ultimate Trading Infrastructure
+              </h3>
+              <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
+                When traditional finance meets distributed systems engineering.
+                When institutional requirements meet permissionless innovation.
+                When the immovable object meets the unstoppable force.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <Button
+                  size="lg"
+                  className="bg-gradient-to-r from-primary to-cyber-blue"
+                >
+                  Request Institutional Access
+                </Button>
+                <Button size="lg" variant="outline">
+                  Download Technical Whitepaper
+                </Button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Quantum Leap Features */}
-      <section className="py-20 bg-gradient-to-b from-background via-neural-grid/10 to-background relative overflow-hidden">
+      <section className="py-20 bg-gradient-to-b from-neural-grid/20 via-neural-grid/10 to-background relative overflow-hidden">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-quantum-glow/5 via-transparent to-transparent" />
         <div className="container relative">
           <div className="text-center mb-16">
