@@ -45,25 +45,25 @@ export default function QuantumNav() {
       badge: "Live",
     },
     {
+      label: "Terminal",
+      href: "/terminal",
+      icon: Monitor,
+      color: "quantum-glow",
+      badge: "2034",
+    },
+    {
       label: "Contest",
       href: "/contest",
       icon: Trophy,
       color: "warning-amber",
-      badge: "New",
+      badge: "Active",
     },
     {
       label: "FAQ",
       href: "/faq",
       icon: BookOpen,
       color: "primary",
-      badge: "Help",
-    },
-    {
-      label: "Security",
-      href: "#",
-      icon: Shield,
-      color: "matrix-green",
-      badge: "Safe",
+      badge: "Docs",
     },
   ];
 

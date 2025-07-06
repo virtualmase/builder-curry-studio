@@ -11,6 +11,7 @@ import Index from "./pages/Index";
 import Dashboard from "./pages/Dashboard";
 import FAQ from "./pages/FAQ";
 import Contest from "./pages/Contest";
+import Terminal from "./pages/Terminal";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -26,6 +27,7 @@ const App = () => (
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/faq" element={<FAQ />} />
           <Route path="/contest" element={<Contest />} />
+          <Route path="/terminal" element={<Terminal />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
