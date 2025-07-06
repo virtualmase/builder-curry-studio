@@ -52,7 +52,7 @@ export default function QuantumNav() {
       badge: "2034",
     },
     {
-      label: "Contest",
+      label: "Leaderboard",
       href: "/contest",
       icon: Trophy,
       color: "warning-amber",
