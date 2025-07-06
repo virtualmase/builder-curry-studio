@@ -312,12 +312,12 @@ export default function Index() {
               Market-Leading Innovation
             </Badge>
             <h2 className="text-3xl font-bold mb-4">
-              Why DarkGemini Dominates the Market
+              Institutional Infrastructure Meets Immovable Security
             </h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              While other platforms offer basic paper trading, we deliver the
-              world's first true digital twin of live crypto markets. Experience
-              what billion-dollar trading firms use internally.
+              Built by former Goldman Sachs quants and Renaissance Technologies
+              researchers. When regulatory storms meet our permissionless
+              architecture, immovable security meets unstoppable innovation.
             </p>
           </div>
 
