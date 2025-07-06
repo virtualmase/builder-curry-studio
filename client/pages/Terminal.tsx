@@ -155,7 +155,7 @@ export default function Terminal() {
               <div className="flex items-center gap-2">
                 <div className="h-3 w-3 rounded-full bg-success-emerald animate-pulse" />
                 <span className="text-sm font-mono">
-                  DARKGEMINI TERMINAL v2034.1
+                  DARKGEMINI QUANTUM TERMINAL
                 </span>
               </div>
               <div className="text-xs font-mono text-muted-foreground">
@@ -510,7 +510,7 @@ export default function Terminal() {
         <div className="container py-2">
           <div className="flex items-center justify-between text-xs font-mono text-muted-foreground">
             <div className="flex items-center gap-4">
-              <span>BUTTERFLY LABS PROTOCOL v2034</span>
+              <span>BUTTERFLY LABS QUANTUM PROTOCOL</span>
               <span>QUANTUM COHERENCE: {quantumCoherence.toFixed(2)}%</span>
               <span>LATENCY: 12ms</span>
             </div>
